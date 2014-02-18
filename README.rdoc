@@ -10,7 +10,7 @@ Changes to readme on newreadme git branch
 
 Another change to the newreadme branch.
 
-Creating divergent files ... 1
+Creating divergent file for newreadme
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
