@@ -7,6 +7,17 @@ The Stocktators application
 * Run test suite using this command prompt:
 	$ bundle exec rspec spec/
 
+<<<<<<< HEAD
+=======
+Ok now commit to Git for the 4th time.
+
+Changes to readme on newreadme git branch
+
+Another change to the newreadme branch.
+
+
+
+>>>>>>> fix-merge
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

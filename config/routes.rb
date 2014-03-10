@@ -1,14 +1,10 @@
 Stocktators::Application.routes.draw do
-<<<<<<< HEAD
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
-=======
-  get "users/new"
-  resources :users
-  root 'static_pages#home'
   get "static_pages/newstock"
->>>>>>> e4cf2546987ab241d83c3e2ae249e8a06951b6a0
+
+  get "users/new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
