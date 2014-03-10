@@ -13,21 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140304160358) do
 
-  create_table "stock_data", force: true do |t|
-    t.string   "exchange"
-    t.string   "tickersymbol"
-    t.date     "date"
-    t.float    "openprice"
-    t.float    "closeprice"
-    t.float    "netchange"
-    t.float    "percentchange"
-    t.integer  "volume"
-    t.float    "pe"
-    t.float    "ytdchange"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
