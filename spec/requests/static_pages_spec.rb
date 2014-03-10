@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+<<<<<<< HEAD
 describe "StaticPages" do
 
 	describe "Home page" do
@@ -40,4 +41,24 @@ describe "StaticPages" do
 			expect(page).to have_title("Stocktators | About Us")
 		end
 	end
+=======
+describe "Static pages" do
+
+  describe "Can I screw with this too? - yes!" do
+
+    it "can i screw with this? just description? - yes" do
+      visit '/static_pages/home'
+      expect(page).to have_content('Stocktators!')
+    end
+  end
+
+  describe "Stock insert page" do
+
+    it "Stock insert page" do
+      visit '/static_pages/newstock'
+      expect(page).to have_content('New Stock Insertion!')
+    end
+  end
+  
+>>>>>>> e4cf2546987ab241d83c3e2ae249e8a06951b6a0
 end
