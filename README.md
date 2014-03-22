@@ -2,6 +2,8 @@
 
 The Stocktators application
 
+Simple change
+
 * Ruby version 2.0.0
 
 * Run test suite using this command prompt:
