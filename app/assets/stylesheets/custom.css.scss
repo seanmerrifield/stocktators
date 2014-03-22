@@ -4,8 +4,9 @@
 
 $grayMediumLight: #eaeaea;
 $grayLight: #999;
-$green: #46a546;
-$white: #fff;
+$LightGreen: #90EE90;
+$PaleGreen: #98FB98;
+$LimeGreen: #32CD32;
 
 /* universal */
 
@@ -62,6 +63,10 @@ p {
 
 /* header */
 
+.my-navbar-inner {
+  background-color: $LimeGreen;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -84,28 +89,23 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #999;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 10px;
+  border-top: 1px solid $grayMediumLight;
+  color: $grayLight;
+  a {
+    color: $gray;
+    &:hover {
+      color: $grayDarker;
+    }
+  }
+  small {
+    float: left;
+  }
+  u1 {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
 }
