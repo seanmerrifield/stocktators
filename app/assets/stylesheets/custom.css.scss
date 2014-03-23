@@ -33,10 +33,9 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -58,7 +57,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #999;
+  color: $grayLight;
 }
 
 p {
@@ -82,11 +81,10 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-}
-
-#logo:hover {
-  color: $white;
-  text-decoration: none;
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
 }
 
 /* footer */
@@ -105,7 +103,7 @@ footer {
   small {
     float: left;
   }
-  u1 {
+  ul {
     float: right;
     list-style: none;
     li {
