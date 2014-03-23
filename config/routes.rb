@@ -1,11 +1,17 @@
 Stocktators::Application.routes.draw do
+  
+  get "users/new" #created automatically by the controller..
+
+  root  'static_pages#home'
+  match '/signup',  to: 'users#new',            via: 'get' #created to match the /signup URL to users#new, which is a file in views/users
+
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
   get "static_pages/contact"
   get "static_pages/newstock"
 
-  get "users/new"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
