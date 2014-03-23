@@ -1,9 +1,9 @@
 Stocktators::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/about"
-  get "static_pages/contact"
-  get "static_pages/newstock"
+  root 'static_pages#home'
+  match '/help',    to: 'static_pages#help',      via: 'get'
+  match '/about',   to: 'static_pages#about',     via: 'get'
+  match '/contact', to: 'static_pages#contact',   via: 'get'
+  match 'newstock', to: 'static_pages#newstock',  via: 'get'
 
   get "users/new"
   # The priority is based upon order of creation: first created -> highest priority.
